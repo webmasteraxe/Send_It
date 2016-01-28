@@ -4,7 +4,13 @@
     <string name="subject">Subject</string>
     <string name="to">To</string>
     <string name="body">Body</string>
-    <string name="temp">FirstName:
-        <br />  Lastname:  <br />  Email:  <br /> Phone:  <br /> Address: </string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
 
+
+    <!--Navigation Drawer Strings-->
+    <string name="nav_home">Home</string>
+    <string name="nav_req_icons">Request Quote</string>
+    <string name="nav_about">About</string>
+    <string name="nav_others">Others</string>
 </resources>
