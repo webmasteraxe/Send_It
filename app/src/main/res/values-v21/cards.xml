@@ -9,10 +9,10 @@
         <bool name="card1_visible">true</bool> <!--set false to hide card-->
 
         <!--Card1 content-->
-        <string name="card1_title">Welcome to Send_It</string>
-        <string name="card1_desc">Send_It is an IT HUB , to know more....get a quote</string>
-        <string name="card1_button">Like it</string>
-        <string name="card1_link">http://www.google.in/</string>
+        <string name="card1_title">Welcome to Jalaj</string>
+        <string name="card1_desc">Jalaj is an packing &amp; exporting company. We take better care of your belonging , when you are moving from your old to new location :) </string>
+        <string name="card1_button"></string>
+        <string name="card1_link"></string>
 
         <!--Card1 colors-->
         <color name="card1_title">#6d6d6d</color>
@@ -27,10 +27,10 @@
         <bool name="card2_visible">false</bool><!--set false to hide card-->
 
         <!--Card2 Content-->
-        <string name="card2_title">Other Apps</string>
-        <string name="card2_desc">Check out more apps by me. And support me by installing them.</string>
-        <string name="card2_button">Other apps</string>
-        <string name="card2_link">https://play.google.com/store/apps/developer?id=AcjMods</string>
+        <string name="card2_title">Please Fill In The Bellow Details</string>
+        <string name="card2_desc">Please give proper details , to avoid confusion...Make sure you fill up all details properly, especially present address &amp; new address </string>
+        <string name="card2_button"></string>
+        <string name="card2_link"></string>
 
         <!--Card2 colors-->
         <color name="card2_title">#6d6d6d</color>

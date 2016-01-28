@@ -12,4 +12,9 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="MyMaterialTheme.Request" parent="MyMaterialTheme">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
 </resources>
