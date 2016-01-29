@@ -12,13 +12,15 @@ import android.widget.EditText;
 
 import com.manojz.send_it.R;
 
+import java.util.Collections;
+
 /**
  * Created by amungara on 1/28/2016.
  */
 public class RequestActivity extends AppCompatActivity {
     EditText to,subject,body;
-    Toolbar toolbar;
     Button button;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
@@ -27,13 +29,19 @@ public class RequestActivity extends AppCompatActivity {
         to = (EditText)findViewById(R.id.input_email);
         subject = (EditText)findViewById(R.id.input_subject);
         body = (EditText)findViewById(R.id.input_body);
-        body.setText("FirstName:  \nLastName:   \nEmail:  \nPhone:  \nAddress:  ");
-        button = (Button)findViewById(R.id.btn_send);
-
+        body.setText("Shifting from*:  \n" +
+                "Floor*: \n" +
+                "To*: \n" +
+                "Floor*:\n" +
+                "Name*:\n" +
+                "Contact No*:\n" +
+                "Email (Optional)\n" +
+                "Submit:\n  ");
+        setSupportActionBar((Toolbar) findViewById(R.id.toolbar_req));
         if (Build.VERSION.SDK_INT >= 21)
-            getWindow().setStatusBarColor(getResources().getColor(R.color.colorPrimaryDark));
-
-
+            getWindow().setStatusBarColor(getResources().getColor(R.color.colorPrimary));
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        button = (Button)findViewById(R.id.btn_send);
         button.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -57,7 +65,9 @@ public class RequestActivity extends AppCompatActivity {
 
             }
         });
+
     }
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {

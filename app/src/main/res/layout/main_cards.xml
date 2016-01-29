@@ -5,6 +5,7 @@
     android:layout_height="wrap_content"
     android:layout_gravity="fill_vertical"
     android:layout_marginTop="15dp"
+    android:overScrollMode="always"
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
     <LinearLayout
